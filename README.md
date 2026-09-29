@@ -1,4 +1,4 @@
-# EV software startup website
+# EV Control website
 
 Responsive static website for an EV software engineering company serving passenger-car OEMs and Tier 1 suppliers from Türkiye and San Francisco.
 
@@ -16,7 +16,7 @@ Published using GitHub Pages at https://evcontrol.akinozturk.com/ from `akinoztu
 
 ## Brand and contact updates
 
-- Replace the temporary **EV Controls** name with the approved company name in `index.html` and the brief in `script.js`.
+- Approved website name: **EV Control**, matching `evcontrol.akinozturk.com`.
 - Add the approved public contact address. No contact email was assumed, and no contact form sends or stores data.
 
 ## Features

@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="EV control software engineering for passenger-car OEMs and Tier 1 suppliers. VCU integration, BMS development and motor-control engineering. Türkiye and San Francisco.">
+  <meta name="description" content="EV control software engineering for passenger-car OEMs and Tier 1 suppliers. VCU, BMS, motor-control and on-board charger (OBC) software engineering. Türkiye and San Francisco.">
   <meta name="theme-color" content="#101e24">
   <link rel="canonical" href="https://evcontrol.akinozturk.com/">
   <title>EV Control — Automotive software engineering</title>
   <link rel="icon" href="./favicon.svg?v=evc" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=evc">
-  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=obc">
+  <script src="./script.js?v=obc" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -20,7 +20,7 @@
 </header>
 <main id="main">
   <section class="hero wrap">
-    <div class="hero-copy"><p class="eyebrow">TÜRKIYE / SAN FRANCISCO</p><h1>Software for<br>the electric<br><em>powertrain.</em></h1><p class="intro">VCU, BMS and motor-control engineering for passenger-car OEMs and Tier 1 suppliers.</p><a class="button primary" href="#expertise">Explore our expertise</a><p class="hero-note">From a defined engineering challenge<br>to an integrated, verified deliverable.</p></div>
+    <div class="hero-copy"><p class="eyebrow">TÜRKIYE / SAN FRANCISCO</p><h1>Software for<br>the electric<br><em>powertrain.</em></h1><p class="intro">VCU, BMS, motor-control and on-board charger (OBC) software engineering for passenger-car OEMs and Tier 1 suppliers.</p><a class="button primary" href="#expertise">Explore our expertise</a><p class="hero-note">From a defined engineering challenge<br>to an integrated, verified deliverable.</p></div>
     <div class="architecture" aria-label="Functional overview of an electric powertrain control system">
       <div class="diagram-top"><span>CONTROL ARCHITECTURE</span><span>01 / SYSTEM VIEW</span></div>
       <div class="signal-label">Vehicle inputs &amp; driver demand</div><div class="wire vertical"></div>
@@ -28,16 +28,18 @@
       <div class="split-wires" aria-hidden="true"></div>
       <div class="node-pair"><div class="node"><span class="node-index">02</span><strong>BMS</strong><span>Manage battery limits</span></div><div class="node"><span class="node-index">03</span><strong>Motor control</strong><span>Regulate torque</span></div></div>
       <div class="diagram-bottom"><span>Energy management</span><span>Torque delivery</span></div>
+      <div class="node obc-node"><span class="node-index">04 / CHARGING</span><strong>OBC</strong><span>Coordinate on-board charging with BMS limits</span></div>
       <div class="diagram-caption"><span class="cross" aria-hidden="true">+</span> Connected functions. Defined interfaces.</div>
     </div>
   </section>
   <div class="discipline-strip"><div class="wrap"><span>Embedded software</span><span>Controls integration</span><span>Calibration</span><span>Verification</span></div></div>
   <section id="expertise" class="section wrap">
-    <div class="section-heading"><p class="eyebrow">01 / EXPERTISE</p><h2>Three domains.<br>One system perspective.</h2><p>Specialist engineering where battery, vehicle and propulsion software meet.</p></div>
+    <div class="section-heading"><p class="eyebrow">01 / EXPERTISE</p><h2>Four domains.<br>One system perspective.</h2><p>Specialist engineering where battery, vehicle, propulsion and charging software meet.</p></div>
     <div class="service-grid">
       <article class="service"><span class="service-number">01</span><h3>Vehicle control</h3><p class="service-intro">Turn vehicle requirements into coordinated behavior.</p><ul><li>Vehicle state machines</li><li>Torque and thermal coordination</li><li>CAN integration and diagnostics</li><li>Software and hardware-in-the-loop tests</li></ul><p class="deliverable">Typical assignment<span>Integrate and verify a VCU function.</span></p></article>
       <article class="service"><span class="service-number">02</span><h3>Battery management</h3><p class="service-intro">Connect battery intelligence to operating limits.</p><ul><li>State-of-charge and health verification</li><li>Power-limit and balancing logic</li><li>Calibration with representative data</li><li>Diagnostic and fault-response tests</li></ul><p class="deliverable">Typical assignment<span>Verify BMS behavior and calibration.</span></p></article>
       <article class="service"><span class="service-number">03</span><h3>Motor control</h3><p class="service-intro">Bring control algorithms onto the target drive.</p><ul><li>Controller and inverter integration</li><li>Field-oriented-control verification</li><li>Calibration and fault diagnostics</li><li>Customer-site dynamometer support</li></ul><p class="deliverable">Typical assignment<span>Integrate and calibrate an existing controller.</span></p></article>
+      <article class="service"><span class="service-number">04</span><h3>On-board charging (OBC)</h3><p class="service-intro">Connect charging control, power electronics and vehicle software.</p><ul><li>Charging state machines and BMS limit coordination</li><li>Power-stage control software integration</li><li>CAN communication and diagnostic integration</li><li>Calibration and fault-response verification</li></ul><p class="deliverable">Typical assignment<span>Integrate and verify OBC control software on the target ECU.</span></p></article>
     </div>
   </section>
   <section id="approach" class="approach section"><div class="wrap approach-grid"><div><p class="eyebrow">02 / DELIVERY</p><h2>A clear scope.<br>A traceable result.</h2><p class="approach-intro">Work starts with your requirements, interfaces and acceptance criteria. Development follows the needs of your program and your engineering environment.</p><p class="approach-footnote">Remote development, supported by planned access to customer or partner hardware and test facilities.</p></div><ol class="process"><li><span>01</span><div><h3>Define</h3><p>Agree the engineering problem, dependencies, deliverables and acceptance tests.</p></div></li><li><span>02</span><div><h3>Develop</h3><p>Implement and review software in your architecture, with controlled configurations and reproducible builds.</p></div></li><li><span>03</span><div><h3>Verify</h3><p>Connect requirements to test evidence, using simulation and target hardware where needed.</p></div></li><li><span>04</span><div><h3>Integrate</h3><p>Support calibration, resolve integration findings and hand over documented results.</p></div></li></ol></div></section>

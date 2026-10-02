@@ -5,3 +5,6 @@
 
 /* EVC Module brand lockup */
 .brand{flex-direction:column;align-items:center;gap:5px;flex-shrink:0}.brand-logo{display:block;width:120px;height:auto}.brand-name{font-size:11px;line-height:1.2;font-weight:700;letter-spacing:.19em;white-space:nowrap}.footer .brand-logo{width:108px}.footer .brand-name{font-size:10px}@media(max-width:720px){.brand-logo{width:105px}.brand-name{font-size:10px}}
+
+/* Four engineering domains */
+.service-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:40px}.service ul{min-height:0}.obc-node{margin-bottom:22px}.obc-node strong{font-size:24px}.diagram-bottom{margin-bottom:20px}@media(max-width:720px){.service-grid{grid-template-columns:1fr}}

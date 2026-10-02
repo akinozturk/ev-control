@@ -21,7 +21,7 @@ Published using GitHub Pages at https://evcontrol.akinozturk.com/ from `akinoztu
 
 ## Features
 
-- VCU, BMS, and motor-control service descriptions.
+- VCU, BMS, motor-control, and on-board charger (OBC) service descriptions.
 - Delivery process, locations, and engagement models.
 - Downloadable project brief, responsive navigation, keyboard focus states, and reduced-motion support.
 - No analytics, cookies, remote fonts, external images, or runtime dependencies.
